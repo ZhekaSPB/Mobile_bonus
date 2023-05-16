@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int a = 200;
-        int s = 1300;
+        int s = 1500;
         int b;
         if (s >= 1000) {
             b = s/100;
