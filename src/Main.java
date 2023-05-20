@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = 200;
-        int s = 1500;
-        int b;
-        if (s >= 1000) {
-            b = s/100;
+        int was = 200;
+        int replenishment = 1500;
+        int bonus;
+        if (replenishment >= 1000) {
+            bonus = replenishment/100;
         } else {
-            b = 0;
+            bonus = 0;
         }
-        int i = a + s;
-        System.out.println("Итоговый бонус: " + b);
+        int i = was + replenishment;
+        System.out.println("Итоговый бонус: " + bonus);
         System.out.println("Итоговый счёт: " + i);
 
         // Объявляете переменные для входных данных и
