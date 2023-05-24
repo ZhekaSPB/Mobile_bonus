@@ -9,9 +9,9 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int i = was + replenishment;
+        int amount = was + replenishment;
         System.out.println("Итоговый бонус: " + bonus);
-        System.out.println("Итоговый счёт: " + i);
+        System.out.println("Итоговый счёт: " + amount);
 
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
