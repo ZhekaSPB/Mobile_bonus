@@ -4,8 +4,8 @@ public class Main {
         int was = 200;
         int replenishment = 1500;
         int bonus;
-        if (replenishment >= 1000) {
-            bonus = replenishment/100;
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
         } else {
             bonus = 0;
         }
